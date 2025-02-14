@@ -1,0 +1,21 @@
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.star {
+    border: 2px solid #EAB53D;
+    height: 13px;
+    width: 13px;
+    border-radius: 9999px;
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}
+
+.fill {
+    background-color: #EAB53D !important;
+}
