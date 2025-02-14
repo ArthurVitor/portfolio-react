@@ -1,5 +1,5 @@
 import "./About.css";
-import { SkillComponent } from "./Skill/SkillComponent";
+import { SkillComponent } from "../../components/Skill/SkillComponent";
 
 export function About() {
   return (
