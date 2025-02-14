@@ -1,6 +1,8 @@
 import './NavBar.css';
+import { useNavigate } from 'react-router';
 
 function NavBarComponent() {
+    const navigate = useNavigate();
     return (
         <>
             <div className="nav-bar-container">
@@ -8,9 +10,9 @@ function NavBarComponent() {
                     <div className="logo">
                         <a href="https://db.tec.br/" target='_blank'><img src="/Logo DB dark blue 1.svg" alt="DBServer Logo" /></a>
                         <div className="nav-buttons">
-                            <a className='nav-link' href="/">Sobre</a>
+                            <a className='nav-link' onClick={() => navigate('/')}>Sobre</a>
                             <a className='nav-link' href="Arthur Vitor Portuguese.docx" download="Arthur Vitor Portuguese.docx">Currículo</a>
-                            <a className='nav-link' href="/projects">Projetos</a>
+                            <a className='nav-link' onClick={() => navigate('/projects')}>Projetos</a>
                         </div>
                     </div>
 
