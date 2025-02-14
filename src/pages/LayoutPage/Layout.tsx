@@ -7,7 +7,9 @@ export function Layout() {
         <>
             <NavBarComponent />
 
-            <Outlet />
+            <main className="content">
+                <Outlet />
+            </main>
         </>
     )
 }
