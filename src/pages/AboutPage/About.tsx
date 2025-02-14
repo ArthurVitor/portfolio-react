@@ -42,6 +42,7 @@ export function About() {
             <ul style={{display: 'flex', flexDirection: 'column', gap: '3px'}}>
                 <li className="skill-node"><SkillComponent skill="Java" stars={4}/></li>
                 <li className="skill-node"><SkillComponent skill="SpringBoot" stars={4}/></li>
+                <li className="skill-node"><SkillComponent skill="SpringSecurity" stars={2}/></li>
                 <li className="skill-node"><SkillComponent skill="REST" stars={4}/></li>
                 <li className="skill-node"><SkillComponent skill="Kafka" stars={3}/></li>
                 <li className="skill-node"><SkillComponent skill="Docker" stars={3}/></li>
